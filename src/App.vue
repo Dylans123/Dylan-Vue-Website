@@ -1,22 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <Root />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Root from './components/Root.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Root
   }
 }
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Archivo&display=swap");
+
+body {
+  font-family: 'Archivo', sans-serif !important;
+  background: linear-gradient(to right, #84fab0, #8fd3f4) !important;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
