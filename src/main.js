@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import { MdButton, MdContent, MdTabs, MdList, MdIcon } from 'vue-material/dist/components'
+import { MdButton, MdContent, MdTabs, MdList, MdIcon, MdDivider } from 'vue-material/dist/components'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'vue-material/dist/vue-material.min.css'
@@ -29,6 +29,7 @@ Vue.use(MdContent)
 Vue.use(MdTabs)
 Vue.use(MdList)
 Vue.use(MdIcon)
+Vue.use(MdDivider)
 Vue.config.productionTip = false
 
 new Vue({
