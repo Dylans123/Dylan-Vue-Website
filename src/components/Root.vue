@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="row justify-content-center align-items-center" style="height: 100vh;">
-      <div class="col-4">
-        <Sidebar></Sidebar>
+      <div class="col-12 col-sm-4 d-none d-sm-block">
+        <Sidebar />
       </div>
-      <div class="col-8">
-        <ContentHolder></ContentHolder>
+      <div class="col-12 col-sm-8">
+        <ContentHolder />
       </div>
     </div>
   </div>

@@ -12,16 +12,18 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css?family=Archivo&display=swap");
 
 body {
   font-family: 'Archivo', sans-serif !important;
   background: linear-gradient(to right, #84fab0, #8fd3f4) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: normal !important;
 }
-
-#app {
+#app { 
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

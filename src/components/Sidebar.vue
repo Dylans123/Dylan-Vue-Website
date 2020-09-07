@@ -1,6 +1,6 @@
 <template>
-  <div style="height:90vh">
-    <md-content class="md-elevation-24" style="height:90vh;border-radius:5px">
+  <div class="outer-content-container">
+    <md-content class="md-elevation-24 inner-content-container">
       <div class="row h-100 no-gutters justify-content-center">
         <div class="col-12 justify-content-center align-items-center mb-5" style="height:50%">
           <div class="d-flex justify-content-center pt-5" style="height:100%">
@@ -121,9 +121,27 @@ export default {
     font-weight: bold;
   }
 
+  .md-list-item-content {
+    min-height: 36px !important;
+  }
+
   .md-icon {
     color: black !important;
     fill: var(--md-theme-default-icon-on-background, rgba(0,0,0)) !important;
+  }
+
+  .md-icon.md-theme-default.md-icon-image svg {
+    color: black !important;
+    fill: var(--md-theme-default-icon-on-background, rgba(0,0,0)) !important;
+  }
+
+  .inner-content-container {
+    height:95vh;
+    border-radius:5px;
+  }
+
+  .outer-content-container {
+    height: 95vh;
   }
 
   @keyframes float {
