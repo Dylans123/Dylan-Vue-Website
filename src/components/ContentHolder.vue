@@ -36,8 +36,8 @@
         <div class="d-flex justify-content-between" style="flex-direction:column;">
           <div class="my-1" style="font-size:20px;font-weight:bold">
             I'm an undergraduate at the University of Central Florida and am currently
-            a Software Engineering Intern at Constant Contact. I'm also the Treasurer / Web Team
-            lead for Knight Hacks, my school's yearly hackathon and year round software development club.
+            a Software Engineering Intern at Microsoft. I'm also the former Treasurer and President 
+            for Knight Hacks, my school's yearly hackathon and year round software development club.
             I'm passionate about learning new things and finding creative solutions to problems.
             Computer science serves as an excellent medium to do that. 
           </div>
@@ -72,6 +72,7 @@
               <h4 class="m-1"><span class="badge badge-black">Dart</span></h4>
               <h4 class="m-1"><span class="badge badge-black">Python</span></h4>
               <h4 class="m-1"><span class="badge badge-black">C</span></h4>
+              <h4 class="m-1"><span class="badge badge-black">C++</span></h4>
             </div>
           </div>
           <div class="mb-5" style="font-size:20px;font-weight:bold;text-decoration:underline">
@@ -109,15 +110,42 @@
         </div>
         <div class="row my-5">
           <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-            <img src="../assets/constant-contact-logo.jpg" style="height:auto;width:100%" alt="Microsoft Logo"/>
+            <img src="../assets/microsoft-logo.png" style="height:auto;width:100%" alt="Microsoft Logo"/>
+          </div>
+          <div class="col-12 col-sm-8">
+            <span style="font-size:20px;font-weight:bold;text-decoration:underline">
+              Software Engineering Intern, Microsoft<br/>
+            </span>
+            <span style="font-size:16px;font-weight:bold;">
+              − Currently interning on the Commercial Orders team working primarily with Azure, Azure Logic Apps, C# and Azure Resource Management (ARM) Templates.
+            </span>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+            <img src="../assets/hubspot-logo.svg" style="height:auto;width:100%" alt="HubSpot Logo"/>
+          </div>
+          <div class="col-12 col-sm-8">
+            <span style="font-size:20px;font-weight:bold;text-decoration:underline">
+              Software Engineering Intern, HubSpot<br/>
+            </span>
+            <span style="font-size:16px;font-weight:bold;">
+              -	Assisted Structured Content Editing team on developing product used by 95,000+ customers across over 12 different apps.<br/>
+              -	Developed caching solution with React, JavaScript and Jest that reduce data loaded on page by up to 50% and improved load time.<br/>
+              -	Wrote over 5,000 lines of production code that expanded the functionality and greatly improved the usability of my team’s product.
+            </span>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+            <img src="../assets/constant-contact-logo.jpg" style="height:auto;width:100%" alt="Constant Contact Logo"/>
           </div>
           <div class="col-12 col-sm-8">
             <span style="font-size:20px;font-weight:bold;text-decoration:underline">
               Software Engineering Intern, Constant Contact<br/>
             </span>
             <span style="font-size:16px;font-weight:bold;">
-              − Assisting Contacts Davinci team to update legacy contact management system using Backbone Marionette, React, and JavaScript.<br/>
-              − Changes will lead to a more modern and scalable contact system for a product that is used by over 600,000 customers yearly.
+              − Collaborated with another intern on chatbot POC then demoed to heads of engineering / product resulting in project being greenlit for pilot and further development by 8-person team. Contributed using Spring Boot, React, Java, JavaScript, Jenkins, and Kubernetes.
             </span>
           </div>
         </div>
@@ -138,7 +166,7 @@
         </div>
         <div class="row my-5">
           <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-            <img src="../assets/mitre-logo.jpg" style="height:auto;width:100%" alt="Microsoft Logo"/>
+            <img src="../assets/mitre-logo.jpg" style="height:auto;width:100%" alt="Mitre Logo"/>
           </div>
           <div class="col-12 col-sm-8">
             <span style="font-size:20px;font-weight:bold;text-decoration:underline">
@@ -154,11 +182,11 @@
         </div>
         <div class="row my-5">
           <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-            <img src="../assets/go-port-logo.jpg" style="height:auto;width:100%" alt="Microsoft Logo"/>
+            <img src="../assets/go-port-logo.jpg" style="height:auto;width:100%" alt="Go Port Logo"/>
           </div>
           <div class="col-12 col-sm-8">
             <span style="font-size:20px;font-weight:bold;text-decoration:underline">
-              Software Engineering Intern, Microsoft<br/>
+              Software Engineering Intern, Go Port<br/>
             </span>
             <span style="font-size:16px;font-weight:bold;">
               − Implemented over 15 new pages for a website that sees over 500,000 customers a year by recreating the HTML, SCSS, and JQuery
@@ -170,7 +198,7 @@
         </div>
         <div class="row my-5">
           <div class="col-12 col-sm-4 mb-4 mb-sm-0">
-            <img src="../assets/gratsee-logo.png" style="height:auto;width:100%" alt="Microsoft Logo"/>
+            <img src="../assets/gratsee-logo.png" style="height:auto;width:100%" alt="Gratsee Logo"/>
           </div>
           <div class="col-12 col-sm-8">
             <span style="font-size:20px;font-weight:bold;text-decoration:underline">
@@ -248,7 +276,7 @@
           </div>
         </div>
       </div>
-      <div id="projects"></div>
+      <!-- <div id="projects"></div>
       <div>
         <div class="mb-1" style="font-size:50px;font-weight:bold;text-decoration:underline">
           Projects
@@ -279,17 +307,17 @@
             <CarouselProjects :projects="projects" />
           </div>
         </div>
-      </div>
+      </div> -->
     </md-content>
   </div>
 </template>
 <script>
-import CarouselProjects from './CarouselProjects';
+// import CarouselProjects from './CarouselProjects';
 export default {
   name: 'ContentHolder',
-  components: {
-    CarouselProjects
-  },
+  // components: {
+  //   CarouselProjects
+  // },
   data: function() {
     return {
       projects: [
